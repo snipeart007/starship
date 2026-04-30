@@ -315,7 +315,7 @@ Produces a prompt like the following:
 ▶                                   starship on  rprompt [!] is 📦 v0.57.0 via 🦀 v1.54.0 took 17s
 ```
 
-While using `zsh` shell, by default, zsh writes an extra space on the right end of the prompt, which produces a gap/allignment mismatch in the starship format on the right side. Therefore, while using `zsh` versions >= 5.0.5, users must add the following to their `.zshrc` to eradicate the extra indent.
+While using `zsh` shell, by default, zsh writes an extra space on the right end of the prompt, which produces a gap/alignment mismatch in the starship format on the right side. Therefore, while using `zsh` versions >= 5.0.5, users must add the following to their `.zshrc` to eradicate the extra indent.
 
 ```
 ZLE_RPROMPT_INDENT=0
